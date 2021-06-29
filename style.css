@@ -1,58 +1,123 @@
 /* elements */
 
+/*
 header {
   font-family: sans-serif;
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 0px;
 }
+*/
 
-main {
-  margin-left: 200px;
-  padding: 0px 10px;
+h2 {
+  font-family: 'Advent Pro', sans-serif;
+  color: #AECE00;
+  font-size: xx-large;
 }
 
+
+/*
 a {
   display: block;
   margin: 10px;
 }
+*/
+
 
 p {
-  font-family: sans-serif;
-  margin-top: 2px;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: larger;
+  color: white;
 }
 
+ol {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+}
+
+
+section {
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  margin: 5% 7% 15% 7%;
+  padding: 10px;
+
+}
+
+
+/*
 code {
   background-color: lightgray;
   margin-bottom: 10px;
 }
-
+*/
 
 
 /* IDs */
 
+/*
 #nav-title {
   text-align: center;
 }
+*/
 
-#navbar {
-  height: 100%;
-  width: 200px;
-  background-color: lightgray;
-  position: fixed;
-  overflow-x: hidden;
+#Topic_1 {
+  background: linear-gradient(180deg, #3B0C5E, #00A6B5);
 }
+
+
+#Topic_2 {
+  background: linear-gradient(180deg, #3B0C5E, #00A6B5);
+}
+
+
+#Topic_3 {
+  background: linear-gradient(180deg, #3B0C5E, #00A6B5);
+}
+
+
+#Topic_4 {
+  background: linear-gradient(180deg, #3B0C5E, #00A6B5);
+}
+
+
+#Topic_5 {
+  background: linear-gradient(180deg, #3B0C5E, #00A6B5);
+}
+
 
 
 /* classes */
 
+/*
 .nav-link {
   border: 3px solid black;
 }
+*/
+
+
 
 
 
 /* media queries */
-@media (max-width: 800px) {
-  /*CSS for collapsible navbar here*/
+@media (min-width: 768px) {
+  
+  main {
+    margin-left: 200px;
+    padding: 0px 10px;
+  }
+
+
+  #navbar {
+    height: 100%;
+    width: 200px;
+    background-color: lightgray;
+    position: fixed;
+    overflow-x: hidden;
+  }
+
 }
