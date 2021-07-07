@@ -1,8 +1,8 @@
 function clickFunction() {
-    const x = document.getElementById("siteLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
+    const nav = document.getElementById("siteLinks");
+    if (nav.style.display === "block") {
+        nav.style.display = "none";
     } else {
-        x.style.display = "block";
+        nav.style.display = "block";
     }
 };

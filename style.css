@@ -28,7 +28,7 @@ ol {
 
 section {
   border-radius: 5px;
-  border-color: black;
+  border-color: #1D1D1D;
   border-style: solid;
   border-width: thin;
   margin: 5% 7% 15% 7%;
@@ -37,21 +37,13 @@ section {
 }
 
 
-/*
-code {
-  background-color: lightgray;
-  margin-bottom: 10px;
-}
-*/
-
 
 /* IDs */
 
-/*
-#nav-title {
-  text-align: center;
+#siteLinks {
+  display: none;
+  font-family: 'Advent Pro', sans-serif;
 }
-*/
 
 
 #Topic_1 {
@@ -100,28 +92,31 @@ code {
   #navbar {
     height: 100%;
     width: 200px;
-    background-color: black;
+    background-color:#1D1D1D;
     position: fixed;
     overflow-x: hidden;
+    top: 0;
+    left: 0;
   }
 
 
   #siteLinks {
     display: none;
+    font-family: 'Advent Pro', sans-serif;
   }
 
 
   .navbar a {
-    color: green;
+    color: #00A6B5;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    display: block;
+    font-size: 22px;
+    display: block;  
   }
   
   
   .navbar a.nav-link-home {
-    background: pink;
+    background: #1D1D1D;
     display: block;
     position: absolute;
     left: 0;
@@ -129,13 +124,13 @@ code {
   }
   
   .navbar a:hover {
-    background-color: white;
-    color: blueviolet;
+    background-color: #1D1D1D;
+    color: white;
   }
-  
+  /*
   .nav-link-home {
     background-color: blue;
     color: red;
   }
-
+*/
 }
